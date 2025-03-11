@@ -29,7 +29,7 @@ struct Cli {
     line_range: Option<String>,
 }
 
-pub fn run(args: Cli) -> String {
+fn run(args: Cli) -> String {
     match args.line_range {
         Some(line_range) => format!("Line range: {}", line_range),
         None => "Empty line range".to_string()
