@@ -20,7 +20,7 @@
 // OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE
 // OR OTHER DEALINGS IN THE SOFTWARE.
 
-use clap::{Parser};
+use clap::Parser;
 
 #[derive(Parser)]
 #[command(name = "lira")]
@@ -32,7 +32,7 @@ struct Cli {
 fn run(args: Cli) -> String {
     match args.line_range {
         Some(line_range) => format!("Line range: {}", line_range),
-        None => "Empty line range".to_string()
+        None => "Empty line range".to_string(),
     }
 }
 
