@@ -1,7 +1,7 @@
 use clap::{Parser};
 
 #[derive(Parser)]
-#[command(name = "onlivi")]
+#[command(name = "lira")]
 struct Cli {
     #[arg(short, long, help = "Filter errors within the specified line range")]
     line_range: Option<String>,

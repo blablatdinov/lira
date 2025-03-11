@@ -156,6 +156,14 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "c19937216e9d3aa9956d9bb8dfc0b0c8beb6058fc4f7a4dc4d850edf86a237d6"
 
 [[package]]
+name = "lira"
+version = "0.1.0"
+dependencies = [
+ "assert_cmd",
+ "clap",
+]
+
+[[package]]
 name = "memchr"
 version = "2.7.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -166,14 +174,6 @@ name = "once_cell"
 version = "1.21.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "cde51589ab56b20a6f686b2c68f7a0bd6add753d697abf720d63f8db3ab7b1ad"
-
-[[package]]
-name = "onlivi"
-version = "0.1.0"
-dependencies = [
- "assert_cmd",
- "clap",
-]
 
 [[package]]
 name = "predicates"

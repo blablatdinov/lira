@@ -1,6 +1,6 @@
-# Onlivi
+# Lira
 
-Onlivi is a CLI tool that filters linter errors based on a specified line range.
+Lira is a CLI tool that filters linter errors based on a specified line range.
 
 ## Features
 
@@ -16,7 +16,7 @@ Onlivi is a CLI tool that filters linter errors based on a specified line range.
 
 ### Basic usage
 
-`linter_command file.py | onlivi --line-range 10-20`
+`linter_command file.py | lira --line-range 10-20`
 
 ### Example:
 
@@ -30,7 +30,7 @@ file.rs:25: error: Unexpected behavior
 
 Running:
 
-`linter_command | onlivi --line-range 10-20`
+`linter_command | lira --line-range 10-20`
 
 Will output:
 
@@ -39,7 +39,7 @@ Will output:
 ## Options
 
 ```
-Usage: onlivi [OPTIONS]
+Usage: lira [OPTIONS]
 
 Options:
   -l, --line-range <LINE_RANGE>  Filter errors within the specified line range
